@@ -1,0 +1,171 @@
+
+body{
+    font-family: 'Crimson Pro',serif;
+}
+
+
+.home-body{
+    background-color:#f0f1f3;
+    width: 100%;
+    height: 100%;
+    color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 1.25rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.bg-dark {
+    background-color: rgba(52,58,64,0.8)!important;
+}
+.intro{
+    width: 100%;
+    height: 100vh;
+    margin-bottom:50px;
+}
+.intro h1{
+    font-size: 2.25rem;
+    text-shadow: 2px 2px black;
+    font-weight: 450;
+}
+.typing::after{
+    content:"";
+    width:4px;
+    height:80%;
+    border-right: 2px solid beige;
+    animation: blink 0.75s infinite;
+}
+.intro_pic{
+    width: 100%;
+    height:100vh;
+}
+.intro_text{
+    position: absolute;
+    top:30%;
+    left:5%;
+    color: beige;
+}
+.about{
+    background-color: yellow;
+    padding:40px 30px 0 30px;
+    text-align: center;
+    margin-bottom:50px;
+    font-size: 1.25rem;
+}
+
+.content{
+    padding:10px 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.icon{
+    margin-bottom: 10px;
+}
+.skills{
+  
+    padding:40px 30px 0 30px;
+    justify-content: center;
+    text-align:center;
+    margin-bottom:50px;
+}
+.skills h1{
+    padding:30px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 450;
+}
+.skills h2{
+    font-size: 2rem;
+    font-weight: 450;
+}
+.skills ul{
+    list-style: none;
+    padding-left:0;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+
+.projects{
+    background-color: yellow;
+    text-align:center;
+    padding:40px 30px 0 30px;
+    justify-content: space-around;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom:50px;
+}
+.projects h1{
+    padding:30px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 450;
+}
+.projects h3{
+    padding:0px 40px 30px 40px;
+    margin:0;
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+
+.shows{
+  
+        padding:40px 30px 0 30px;
+        justify-content: center;
+        text-align:center;
+        margin-bottom:50px;
+}
+.shows h1{
+    padding:30px;
+    margin-bottom: 40px;
+    font-size: 3rem;
+    font-weight: 450;
+}
+.shows img{
+    border-radius: 5px;
+    margin:30px;
+    cursor: pointer;
+}
+.shows img:hover{
+    box-shadow: -2px 2px 5px 5px rgb(99, 96, 96);
+}
+.dumb{
+text-align: right;
+}
+footer{
+background-color: yellow;
+}
+
+footer{
+    display:block;
+    padding:50px 20px 100px 30px;
+}
+.foot{
+    margin-bottom: 5%;
+}
+.foot a{
+    margin:1%;
+    margin-top: 5%;
+}
+.footer-image{
+    border-radius: 50px;
+}
+
+@keyframes blink{
+    0%{
+        opacity:1;
+    }
+    50%{
+        opacity:0;
+    }
+    100%{
+        opacity:1;
+    }
+}
+
+
