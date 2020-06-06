@@ -13,7 +13,13 @@ body{
     overflow: hidden;
     font-size: 1.25rem;
 }
+.skills ul{
+    list-style: none;
+    padding-left:0;
+    font-weight: 500;
+    line-height: 1.5;
 
+}
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,1);
 }
