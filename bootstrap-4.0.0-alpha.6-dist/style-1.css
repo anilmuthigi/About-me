@@ -86,12 +86,7 @@ body{
         text-align:center;
         margin-bottom:50px;
 }
-.shows h1{
-    padding:30px;
-    margin-bottom: 40px;
-    font-size: 3rem;
-    font-weight: 450;
-}
+
 .shows img{
     border-radius: 5px;
     margin:30px;
