@@ -1,6 +1,6 @@
 
 body{
-    font-family: 'Times New Roman Georgia',serif;
+    font-family: 'Times New Roman Georgia';
 }
 
 
@@ -25,11 +25,7 @@ body{
     height: 100vh;
     margin-bottom:50px;
 }
-.intro h1{
-    font-size: 2.25rem;
-    text-shadow: 2px 2px black;
-    font-weight: 450;
-}
+
 
 .intro_pic{
     width: 100%;
