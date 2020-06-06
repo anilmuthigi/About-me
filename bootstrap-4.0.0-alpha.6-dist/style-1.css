@@ -32,13 +32,7 @@ html{
     text-shadow: 2px 2px black;
     font-weight: 450;
 }
-.typing::after{
-    content:"";
-    width:4px;
-    height:80%;
-    border-right: 2px solid beige;
-    animation: blink 0.75s infinite;
-}
+
 .intro_pic{
     width: 100%;
     height:100vh;
