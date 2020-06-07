@@ -13,6 +13,9 @@ body{
     overflow: hidden;
     font-size: 1.25rem;
 }
+$('.popover-dismiss').popover({
+  trigger: 'focus'
+})
 .skills ul{
     
     list-style: none;
